@@ -19,6 +19,5 @@ public class task6 {
         if (result>3){
             System.out.println("Программа выполнена корректно");
         }
-
-}
+    }
 }

@@ -15,14 +15,14 @@ public class task10 {
                 array[i][j] = in.nextInt();
             }
         }
-        System.out.println("Полученная матрица:");
+        System.out.println("Полученная матрица: ");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.printf("%d ", array[i][j]);
             }
             System.out.println();
         }
-        System.out.println("Первая строка, умноженная на 3:");
+        System.out.println("Первая строка, умноженная на 3: ");
         for (int i = 0; i < array.length; i++) {
             System.out.printf("%d ", array[0][i]*3);
         }

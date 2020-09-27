@@ -14,5 +14,4 @@ public class task7 {
             System.out.println("Такой константы нет!");
         }
     }
-
 }

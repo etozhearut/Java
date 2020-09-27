@@ -27,7 +27,5 @@ public class task5 {
 
         //другой вариант решения задачи
         //System.out.printf("%s x 1 = %s\n%s x 2 = %s\n%s x 3 = %s\n%s x 4 = %s\n%s x 5 = %s\n%s x 6 = %s\n%s x 7 = %s\n%s x 8 = %s\n%s x 9 = %s\n%s x 10 = %s\n", num, num, num, num*2, num, num*3, num, num*4, num, num*5, num, num*6, num, num*7, num, num*8, num, num*9, num, num*10);
-
     }
-
 }

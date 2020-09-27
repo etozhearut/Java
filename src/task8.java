@@ -3,7 +3,6 @@ public class task8 {
 
         for (int x = 1; x < 51; x++) {
             System.out.println(x);
-
             }
 
         }

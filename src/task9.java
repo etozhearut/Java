@@ -13,7 +13,7 @@ public class task9 {
         for (int i = 0; i < array.length; i++) {
             System.out.printf("%d ", array[i]);
         }
-        System.out.println("\nПолученный массив, где каждый элемент умножен на 2:");
+        System.out.println("\nПолученный массив, где каждый элемент умножен на 2: ");
         for (int i = 0; i < array.length; i++) {
             System.out.printf("%d ", array[i] * 2);
         }

@@ -6,6 +6,6 @@ public class task4 {
         System.out.println("Введите число в бинарном формате: ");
         String binary = in.nextLine();
         int ten = Integer.parseInt(binary, 2);
-        System.out.println("Число "+ binary + " в десятичном формате будет: " + ten);
+        System.out.println("Число "+ binary + " в десятичном формате будет:" + ten);
     }
 }

@@ -5,18 +5,18 @@ public class task6 {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Введите первое число: ");
-        double x = in.nextDouble();
+        double number1 = in.nextDouble();
         System.out.println("Введите второе число: ");
-        double y = in.nextDouble();
+        double number2 = in.nextDouble();
         System.out.println("Введите третье число: ");
-        double z = in.nextDouble();
+        double number3 = in.nextDouble();
 
-        double q = (x+y+z)/3;
-        System.out.println("Среднее арифметическое трех чисел: " + q);
-        double d = q/2;
-        int result = (int)Math.floor(d);
+        double average = (number1 + number2 + number3) / 3;
+        System.out.println("Среднее арифметическое трех чисел: " + average);
+        double halfAv = average / 2;
+        int result = (int)Math.floor(halfAv);
         //System.out.println(result);
-        if (result>3){
+        if (result > 3){
             System.out.println("Программа выполнена корректно");
         }
     }

@@ -6,5 +6,6 @@ public class task11 {
         System.out.print("Введите вашу строку: ");
         String str = in.nextLine();
         System.out.println(str);
+
     }
 }

@@ -9,5 +9,6 @@ public class task14 {
         double dnum = (double)num;
 
         System.out.printf("Вы ввели  Конвертация в int  Конвертация в double  \n  %s             %d               %f", str, num, dnum);
+
     }
 }

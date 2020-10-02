@@ -10,7 +10,6 @@ public class task13 {
         String str2 = in.nextLine();
         int len2 = str2.length();
 
-
         if (len1 > len2){
             System.out.println(str1);
         } else if(len1 < len2){
@@ -18,6 +17,5 @@ public class task13 {
         }else{
             System.out.println("Длины строк равны.");
         }
-
     }
 }

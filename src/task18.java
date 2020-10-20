@@ -23,14 +23,14 @@ public class task18 {
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(System.in));
             do {
-                if (counter1 == counter) break;
+                //if (counter1 == counter) break;
                 System.out.println("Введите текст: ");
                 str = br.readLine();
                 counter1++;
 
                 str = str + "\r\n";
                 fw.write(str);
-            } while (counter1 <= counter);
+            } while (counter1 < counter);
             System.out.println("Ваши данные перезаписаны в файл.");
         } catch (IOException e) {
             System.out.println("Ошибка ввода-вывода: " + e);
